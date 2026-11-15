@@ -6,6 +6,7 @@
 <div align="center">
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-narin--eden-181717?style=flat-square&logo=github)](https://github.com/narin-eden)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
@@ -42,8 +43,8 @@
 ### 1. 저장소 클론 및 패키지 설치
 
 ```bash
-git clone https://github.com/narin-eden/my-link.git
-cd my-link
+git clone https://github.com/narin-eden/My-link.git
+cd My-link
 npm install
 ```
 
@@ -67,7 +68,7 @@ npm run build  # 프로덕션 빌드 생성
 ## 📂 프로젝트 구조 (Project Structure)
 
 ```text
-my-link/
+My-link/
 ├── .github/                  # GitHub Actions 워크플로우 및 이슈/PR 템플릿
 │   ├── workflows/ci.yml
 │   ├── ISSUE_TEMPLATE/
@@ -79,6 +80,7 @@ my-link/
 │       └── globals.css       # 글로벌 스타일 및 테마 변수
 ├── public/                   # 정적 에셋 (아이콘 등)
 ├── CONTRIBUTING.md           # Git 브랜치 전략 및 커밋 컨벤션 가이드
+├── LICENSE                   # MIT License
 ├── package.json
 └── README.md
 ```
@@ -93,4 +95,4 @@ my-link/
 
 ## 📄 라이선스 (License)
 
-Copyright © 2026 [narin-eden](https://github.com/narin-eden). All rights reserved.
+이 프로젝트는 [MIT 라이선스](./LICENSE)를 따릅니다. Copyright © 2026 [narin-eden](https://github.com/narin-eden).
