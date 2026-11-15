@@ -22,14 +22,14 @@ export default function ProfilePage() {
         {/* 직무 / 관심 태그 */}
         <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 dark:bg-neutral-800 text-xs font-medium text-neutral-600 dark:text-neutral-300">
           <span>✦</span>
-          <span>Vibe Coder</span>
+          <span>Frontend Developer</span>
           <span>·</span>
-          <span>대학생</span>
+          <span>Problem Solver</span>
         </div>
 
         {/* 소개글 */}
         <p className="mt-4 text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed break-keep">
-          안녕하세요. 바이브 코딩을 배우고 있는 대학생입니다.
+          사용자 경험을 고민하고 문제를 코드로 해결하는 개발자입니다. 새로운 기술을 탐구하며 더 나은 가치를 만들어가는 과정을 즐깁니다.
         </p>
 
         {/* 구분선 */}
